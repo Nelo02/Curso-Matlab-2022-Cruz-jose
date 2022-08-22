@@ -1,0 +1,12 @@
+clc
+clear all
+close all
+
+x= input ("Dame un dato x ");
+
+y= input ("Dame un dato y ");
+
+z = x + y;
+w = x * y;
+
+disp(["La suma de datos es ", x])
