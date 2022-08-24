@@ -1,0 +1,11 @@
+clc
+close all
+clear all
+
+x = true;
+y = false;
+
+z = x & y       %Operacion logica AND%
+
+w = x | y       %Operacion logica OR%
+

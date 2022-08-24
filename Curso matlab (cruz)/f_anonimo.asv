@@ -1,0 +1,10 @@
+clc
+clear all
+close all
+
+%% funcion anonima / handle funciton
+
+f = @(x) x^2 + 3*x + 2; % declara por una funcion anonima a la cual se le dara un valor a x en la siguiente linea
+valor = f(2)                
+
+%%
